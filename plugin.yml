@@ -1,0 +1,8 @@
+name: Palladium
+version: '1.0-SNAPSHOT'
+main: me.palladium
+api-version: '1.21'
+load: STARTUP
+authors: [ NotYellowKlix ]
+description:
+  Palladium — Smart Player Management for Minecraft servers: lightweight tools for moderation, role assignment, and server automation, built for performance and security.
