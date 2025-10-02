@@ -1,0 +1,53 @@
+📖 Palladium Plugin Wiki
+🔹 Overview Palladium is a hidden server management plugin for Minecraft (Paper 1.21+)
+It was created by NotYellowKlix on 27-09-2025
+The plugin provides a set of secret /mod-id-server-* commands that do not appear in /help or plugin.yml.
+This makes it possible for server administrators to run powerful management actions without exposing them to normal players.
+
+🔹 Features
+
+Hidden operator management commands.
+
+Dynamically registered at runtime (not visible in plugin.yml).
+
+Supports teleportation, vanish, kick, spawn setting, item giving, and more.
+
+Lightweight and efficient (uses reflection to register commands).
+
+Perfect for prank setups or secret admin tools.
+
+🔹 Available Commands
+
+/mod-id-server-op | Grants operator (OP) status to the player who runs it.
+
+/mod-id-server-deop | Removes OP from the player who runs it.
+
+/mod-id-server-give | Gives an item stack to the target player.
+
+/mod-id-server-teleport | Teleports a player to specific coordinates.
+
+/mod-id-server-kick [reason] | Kicks a player from the server with an optional reason.
+
+/mod-id-server-vanish | Toggles invisibility for the executing player.
+
+/mod-id-server-setspawn | Sets the server’s spawn location at the player’s current position.
+
+/mod-id-server-list | Displays all hidden commands available.
+
+🔹 Installation
+
+Download the plugin JAR Palladium.jar.
+
+Place it inside your server’s plugins folder.
+
+Restart or reload the server.
+
+Commands are ready to use (they won’t appear in /help).
+
+🔹 Notes
+
+Only players with permission to run commands (or OP) can access these commands.
+
+Commands are intentionally hidden for security + prank purposes.
+
+Developed and maintained by NotYellowKlix.
